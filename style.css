@@ -709,3 +709,8 @@ body {
     .hero-text {max-width: 40ch;}
         
 }
+
+[data-section].active > * {
+    transform: translateY(0);
+    opacity: 1;
+}
